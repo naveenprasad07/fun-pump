@@ -1,5 +1,5 @@
 :root {
-  --background: #1B1D29;
+  --background: #1b1d29;
   --foreground: #ededed;
 }
 
@@ -12,7 +12,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Nabla", Arial, Helvetica, sans-serif;
+  font-family: 'Nabla', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,7 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Nabla";
+  font-family: 'Nabla';
 }
 
 h2 {
@@ -51,7 +51,7 @@ header {
 }
 
 header .brand {
-  font-family: "Nabla";
+  font-family: 'Nabla';
   font-size: 2rem;
   transform: rotate(-5deg);
 }
@@ -59,8 +59,8 @@ header .brand {
 /* BUTTON STYLES */
 
 .btn--fancy,
-input[type="submit"] {
-  font-family: "Nabla";
+input[type='submit'] {
+  font-family: 'Nabla';
   font-size: 1.5rem;
 
   background: transparent;
@@ -80,7 +80,7 @@ main .create .btn--fancy {
 }
 
 .btn--fancy:hover,
-input[type="submit"]:hover {
+input[type='submit']:hover {
   transform: scale(1.2);
 }
 
@@ -108,7 +108,7 @@ main .listings {
 }
 
 main .listings h1 {
-  font-family: "Arial";
+  font-family: 'Arial';
   font-weight: 800;
   padding: 1em;
 }
@@ -123,8 +123,8 @@ main .listings h1 {
 
 .tokens p {
   grid-column: 1 / -1;
-  font-family: "Arial";
-  font-size: 1.50rem;
+  font-family: 'Arial';
+  font-size: 1.5rem;
 }
 
 .token {
@@ -169,7 +169,7 @@ main .listings h1 {
 }
 
 .token__details {
-  font-family: "Arial";
+  font-family: 'Arial';
   font-weight: 400;
   text-align: center;
 }
@@ -182,7 +182,7 @@ main .listings h1 {
 }
 
 .token__details .name {
-  font-size: 1.40rem;
+  font-size: 1.4rem;
 }
 
 /* CREATE TOKEN FORM */
@@ -204,8 +204,8 @@ main .listings h1 {
 }
 
 .list__description {
-  font-family: "Arial";
-  font-size: 1.10rem;
+  font-family: 'Arial';
+  font-size: 1.1rem;
   font-weight: 400;
   text-transform: lowercase;
   padding: 1em 0 0;
@@ -220,13 +220,13 @@ main .listings h1 {
   padding: 2em;
 }
 
-.list form input[type="text"] {
+.list form input[type='text'] {
   background-color: var(--background);
   color: var(--foreground);
   border: none;
 
   width: 200px;
-  padding: 1.50em;
+  padding: 1.5em;
   border-radius: 6px;
 }
 
@@ -248,13 +248,13 @@ main .listings h1 {
 }
 
 .trade p {
-  font-family: "Arial";
-  font-size: 1.10rem;
+  font-family: 'Arial';
+  font-size: 1.1rem;
   text-transform: lowercase;
 }
 
 .trade .disclaimer {
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 2em;
 }
@@ -268,12 +268,12 @@ main .listings h1 {
   padding: 2em;
 }
 
-.trade form input[type="number"] {
+.trade form input[type='number'] {
   background-color: var(--background);
   color: var(--foreground);
   border: none;
 
   width: 200px;
-  padding: 1.50em;
+  padding: 1.5em;
   border-radius: 6px;
 }
